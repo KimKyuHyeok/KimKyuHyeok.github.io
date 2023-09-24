@@ -165,9 +165,19 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+h7, .h7 {
+  font-size: 1.25rem;
+  color: #BD5D38;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+li.not {
+  white-space: nowrap;
+  display: block;
 }
 
 abbr[title] {
@@ -7650,6 +7660,7 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  color: #bd5d38;
 }
 
 .mb-1 {
@@ -9015,8 +9026,8 @@ textarea.form-control-lg {
     margin-left: auto !important;
   }
   .my-md-0 {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
   }
   .my-md-1 {
     margin-top: 0.25rem !important;
